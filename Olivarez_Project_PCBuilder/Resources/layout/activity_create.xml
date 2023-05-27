@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/transact_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Enter build name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/textView8" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/spinner_bg"
+        android:id="@+id/txtcreatebuildname"
+        android:layout_marginBottom="0.0dp" />
+    <ScrollView
+        android:layout_width="344.5dp"
+        android:layout_height="367.5dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/scrollview_bg"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Motherboard:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/motherboard_array"
+                android:id="@+id/spincreatemotherboard" />
+            <TextView
+                android:text="Processor (CPU):"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/cpu_array"
+                android:id="@+id/spincreatecpu" />
+            <TextView
+                android:text="RAM:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView3" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ram_array"
+                android:id="@+id/spincreateram" />
+            <TextView
+                android:text="Internal Storage:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView4" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/storage_array"
+                android:id="@+id/spincreatestorage" />
+            <TextView
+                android:text="Graphics Card (GPU):"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView5" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/gpu_array"
+                android:id="@+id/spincreategpu" />
+            <TextView
+                android:text="Power Supply (PSU):"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView6" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/psu_array"
+                android:id="@+id/spincreatepsu" />
+            <TextView
+                android:text="PC Case:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView7" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/case_array"
+                android:id="@+id/spincreatecase" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="CREATE"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textColor="#000000"
+            android:backgroundTint="#ff39e1fe" 
+            android:id="@+id/btncreate" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\120\res\layout\activity_create.xml
+Button;obj\Debug\120\res\layout\activity_delete.xml
+Button;obj\Debug\120\res\layout\activity_main.xml
+Button;obj\Debug\120\res\layout\activity_update.xml
+Button;obj\Debug\120\res\layout\activity_view.xml
+cache-path;C:\Users\ADMIN\Desktop\3yr-3term\App Dev\MP\Olivarez_Project_PCBuilder\Olivarez_Project_PCBuilder\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\120\res\values\colors.xml
+color;obj\Debug\120\res\values\ic_launcher_background.xml
+EditText;obj\Debug\120\res\layout\activity_create.xml
+EditText;obj\Debug\120\res\layout\activity_delete.xml
+EditText;obj\Debug\120\res\layout\activity_update.xml
+EditText;obj\Debug\120\res\layout\activity_view.xml
+external-cache-path;C:\Users\ADMIN\Desktop\3yr-3term\App Dev\MP\Olivarez_Project_PCBuilder\Olivarez_Project_PCBuilder\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\ADMIN\Desktop\3yr-3term\App Dev\MP\Olivarez_Project_PCBuilder\Olivarez_Project_PCBuilder\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+ImageButton;obj\Debug\120\res\layout\activity_home.xml
+ImageView;obj\Debug\120\res\layout\activity_main.xml
+item;obj\Debug\120\res\values\strings.xml
+item;obj\Debug\120\res\values\styles.xml
+LinearLayout;obj\Debug\120\res\layout\activity_create.xml
+LinearLayout;obj\Debug\120\res\layout\activity_delete.xml
+LinearLayout;obj\Debug\120\res\layout\activity_home.xml
+LinearLayout;obj\Debug\120\res\layout\activity_main.xml
+LinearLayout;obj\Debug\120\res\layout\activity_update.xml
+LinearLayout;obj\Debug\120\res\layout\activity_view.xml
+LinearLayout;obj\Debug\120\res\layout\layout1.xml
+paths;C:\Users\ADMIN\Desktop\3yr-3term\App Dev\MP\Olivarez_Project_PCBuilder\Olivarez_Project_PCBuilder\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\120\res\layout\activity_main.xml
+resources;obj\Debug\120\res\values\colors.xml
+resources;obj\Debug\120\res\values\ic_launcher_background.xml
+resources;obj\Debug\120\res\values\strings.xml
+resources;obj\Debug\120\res\values\styles.xml
+ScrollView;obj\Debug\120\res\layout\activity_create.xml
+ScrollView;obj\Debug\120\res\layout\activity_update.xml
+ScrollView;obj\Debug\120\res\layout\activity_view.xml
+Spinner;obj\Debug\120\res\layout\activity_create.xml
+Spinner;obj\Debug\120\res\layout\activity_delete.xml
+Spinner;obj\Debug\120\res\layout\activity_update.xml
+Spinner;obj\Debug\120\res\layout\activity_view.xml
+string;obj\Debug\120\res\values\strings.xml
+string-array;obj\Debug\120\res\values\strings.xml
+style;obj\Debug\120\res\values\styles.xml
+TextView;obj\Debug\120\res\layout\activity_create.xml
+TextView;obj\Debug\120\res\layout\activity_delete.xml
+TextView;obj\Debug\120\res\layout\activity_update.xml
+TextView;obj\Debug\120\res\layout\activity_view.xml

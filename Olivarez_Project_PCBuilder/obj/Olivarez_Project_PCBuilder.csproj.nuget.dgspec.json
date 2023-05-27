@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ADMIN\\Desktop\\3yr-3term\\App Dev\\MP\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ADMIN\\Desktop\\3yr-3term\\App Dev\\MP\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\3yr-3term\\App Dev\\MP\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder.csproj",
+        "projectName": "Olivarez_Project_PCBuilder",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\3yr-3term\\App Dev\\MP\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\3yr-3term\\App Dev\\MP\\Olivarez_Project_PCBuilder\\Olivarez_Project_PCBuilder\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

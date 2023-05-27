@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" >
+    <ImageButton
+        android:src="@drawable/create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8.5dp"    
+        android:contentDescription="Create new build" 
+        android:id="@+id/btncreatebuild"/>
+    <ImageButton
+        android:src="@drawable/view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="8.5dp"
+        android:layout_marginBottom="8.5dp"
+        android:contentDescription="View builds" 
+        android:id="@+id/btnviewbuild" />
+    <ImageButton
+        android:src="@drawable/edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="8.5dp"
+        android:layout_marginBottom="8.5dp"
+        android:contentDescription="Edit builds" 
+        android:id="@+id/btneditbuild" />
+    <ImageButton
+        android:src="@drawable/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="8.5dp"
+        android:layout_marginBottom="8.5dp"
+        android:contentDescription="Delete builds" 
+        android:id="@+id/btndeletebuild" />
+</LinearLayout>
